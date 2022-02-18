@@ -1,0 +1,31 @@
+
+html(lang='en')
+ head
+   title= title
+   style
+    include ../static/style.css  
+    
+ body
+   
+
+   div
+    h1 Private key generator
+
+
+   div.form
+    form(method="POST" )
+     div.mail
+      label(for='seed') Seed
+      input#mail(type="text" placeholder="seed" name="seed") 
+      
+     
+      br  
+    
+      
+      
+     button(type='submit') Click 
+    h4= key 
+    h4= address
+
+
+ 
