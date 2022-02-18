@@ -49,7 +49,7 @@ res.status(200).render('index.pug',{ key: `Private key : ${priv}`,address:`Addre
 //console.log(`Private KEY: 0x${priv}`);
 
 //console.log(`Address: ${address}`);
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`Example app listening at http://localhost:3000`)
 })
 
